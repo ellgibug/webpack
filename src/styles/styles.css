@@ -1,0 +1,31 @@
+@import "~normalize.css";
+@import "badscript.css";
+body{
+    font-family: "BadScript", sans-serif;
+}
+.container{
+    padding: 50px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+
+.logo{
+    background: url("../assets/image.jpg") center center;
+    background-size: cover;
+    height: 700px;
+    margin: 0 auto;
+}
+p{
+    font-size: 30px;
+    text-align: justify;
+    line-height: 50px;
+}
+
+.code{
+    background: black;
+    padding: 30px;
+    color: beige;
+}
